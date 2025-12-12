@@ -4,66 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        table {
-            border-collapse: collapse;
-            margin-top: 20px;
-            width: 50%;
-        }
-        td, th {
-            border: 1px solid #ccc;
-            padding: 8px;
-            text-align: center;
-        }
-    </style>
 </head>
 <body>
-
-    <h1>Contact Page</h1>
-
-    <!-- Birthyear Input -->
-    <label for="birthYearInput">Birthyear: </label>
-    <input type="text" id="birthYearInput" placeholder="e.g., 2002">
-    <button onclick="calculateAge()">Submit</button>
-
+    <label for="birthyear">Birthyear: </label>
+    <input type="text" id="birthYearInput">
+    
     <p id="ageDisplay"></p>
 
-    <!-- Example Table -->
     <table>
         <tr>
-            <th colspan="3">Sample Table Header</th>
+            <td colspan="3"></td>
         </tr>
-        <tr>
-            <td>Row 1, Col 1</td>
-            <td>Row 1, Col 2</td>
-            <td>Row 1, Col 3</td>
-        </tr>
-        <tr>
-            <td>Row 2, Col 1</td>
-            <td>Row 2, Col 2</td>
-            <td>Row 2, Col 3</td>
-        </tr>
-    </table>
 
-    <script>
-        function calculateAge() {
-            const birthYear = document.getElementById("birthYearInput").value;
-            const currentYear = new Date().getFullYear();
-
-            if (!birthYear || isNaN(birthYear)) {
-                document.getElementById("ageDisplay").textContent =
-                    "Please enter a valid birth year.";
-                return;
-            }
-
-            const age = currentYear - Number(birthYear);
-            document.getElementById("ageDisplay").textContent =
-                "Your age is: " + age;
-        }
-    </script>
-
+        
 </body>
 </html>
