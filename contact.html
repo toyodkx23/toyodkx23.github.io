@@ -1,101 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Degital Dojo</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Digital Dojo — Contact</title>
 
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/contactstyles.css">
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/contactstyles.css" />
 
-    <!-- Favicon — use a relative path instead of a local C drive path -->
-    <link rel="icon" type="image/x-con" href="C:\Users\toyod\OneDrive\デスクトップ\IT105FA25\IT105_final\favicon_io\favicon.ico">
+  <!-- Favicon — use a relative path to the file in your repo -->
+  <link rel="icon" type="image/x-icon" href="favicon/favicon.ico" />
 </head>
 
 <body>
+  <!-- Header -->
+  <header>
+    <h1>Welcome to Digital Dojo!</h1>
+    <p style="text-align:center">The place you can practice Judo remotely</p>
+  </header>
 
-    <!-- Header -->
-    <header>
-        <h1>Welcome to Degital Dojo!</h1>
-        <p style="text-align: center;">The place you can practice Judo remotely</p>
-    </header>
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="index.html#home">Home</a><
 
-    <!-- Navigation -->
-    <nav>
-        <ul>
-            <li><a href="index.html#home">Home</a></li>
-            <li><a href="index.html#blog">Blog</a></li>
-            <li><a href="practice.html">Practice</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-
-    <!-- Content Container -->
-    <div class="container">
-        <h1>Have you ever practiced Judo?</h1>
-        <p style="text-align: center;">Would you be interested in being a teacher or student for in-person Judo practice?</p>
-
-        <!-- Location Info -->
-        <div class="contact-selection">
-            <h2>Visit Our Location</h2>
-            <p><strong>Address:</strong> 1700 Moore Street, Huntingdon, Juniata College, PA 16652</p>
-            <p><strong>Operating Hours:</strong> Mon–Thurs: 9AM–5PM</p>
-        </div>
-
-        <!-- Email Info -->
-        <div class="contact-section">
-            <h2>Send us an Email</h2>
-            <p><strong>General Inquiries:</strong> <a href="mailto:toyodkx23@juniata.edu">toyodkx23@juniata.edu</a></p>
-        </div>
-
-        <!-- Social Media Links -->
-        <div class="contact-selection">
-            <h2>Connect on Social Media</h2>
-            <p>Follow us for the latest event information, promotions, and photos!</p>
-            <ul>
-                <li><strong>Instagram:</strong> <a href="#" target="_blank">Instagram Link</a></li>
-                <li><strong>LinkedIn:</strong> <a href="#" target="_blank">LinkedIn Link</a></li>
-            </ul>
-        </div>
-
-        <!-- Contact Form -->
-        <div class="contact-selection">
-            <h2>Quick Contact Form</h2>
-
-            <form action="thankyou.html" method="get">
-                <label for="name">Name: </label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email: </label>
-                <input type="email" id="email" name="email" required>
-                
-                <label for="phone">Phone number: </label>
-                <input type="tel" id="phone" name="phone" required>
-
-                <label for="birthyear">Birthyear: </label>
-                <input type="text" id="birthYearInput" name="birthyear" required>
-
-                <p id="ageDisplay" aria-live="polite"></p>
-        
-                <label for="role">Would you want to be a teacher or student?: </label>
-                <input type="text" id="role" name="role" required>
-
-                <label for="message">Message: </label>
-                <textarea id="message" name="message" rows="5"></textarea>
-
-                <button type="submit">Send Message</button>
-            </form>
-        </div>
-
-        <hr>
-        <p style="text-align: center;">We look forward to hearing from you and practicing with you!</p>
-    </div>
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 Degital Dojo | Come visit us!</p>
-    </footer>
-    <script src="age.js" defer></script>
-</body>
-</html>
