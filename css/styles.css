@@ -1,0 +1,126 @@
+/*
+ * Ice Cream Shop Color Palette:
+ * Pink: #FF69B4 (Hot Pink)
+ * Mint: #B0E0E6 (Light Mint/Powder Blue)
+ * Yellow: #FFD700 (Gold/Sunshine Yellow)
+ * Blue: #87CEEB (Sky Blue)
+ * Text: #4B2C20 (Chocolate Brown)
+ */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* Light, sweet background color */
+    background-color: gray; /* Very pale/creamy white */
+    color: #4B2C20; /* Dark chocolate for text */
+}
+
+/* --- Header Section (Minty Fresh) --- */
+header {
+    background-color: goldenrod; /* Mint Green */
+    color: #4B2C20;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 5px solid #2f0b41; /* Hot Pink separator */
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+}
+
+/* --- Navigation (Pop of Pink) --- */
+nav {
+    background-color: darkblue; /* Hot Pink */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #F0FFFF; /* Creamy White text */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* Sunshine Yellow hover effect */
+}
+
+/* --- Main Content --- */
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+section {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: darkblue; /* Sky Blue for section titles */
+    border-bottom: 3px dashed goldenrod; /* Dashed Pink line */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* --- Flavor List (Yellow Highlights) --- */
+.flavor-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.flavor {
+    background-color: #FFD700; /* Sunshine Yellow background */
+    color: #4B2C20;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    /* Individual flavor-like colors could be added here for more variety */
+}
+
+/* --- Specials Section (Extra Pop) --- */
+#specials p {
+    font-size: 1.3em;
+    text-align: center;
+    padding: 15px;
+    background-color: silver; /* Mint Green background */
+    border: 3px solid goldenrod;
+    border-radius: 10px;
+}
+
+#specials strong {
+    color: goldenrod; /* Hot Pink emphasis */
+}
+
+/* --- Footer (Grounded Color) --- */
+footer {
+    background-color: #4B2C20; /* Dark Chocolate Brown */
+    color: #FFD700; /* Yellow text */
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+}
